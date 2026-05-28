@@ -16,4 +16,4 @@ Route::get('/', function () {
 Route::post('/proses', [BelajarController::class, 'proses']);
 
 // 3. Jalur lama lo yang pake URL (biarin aja buat cadangan latihan)
-Route::get('/user/{username}&{nim}', [BelajarController::class, 'index']);
+// Route::get('/user/{username}&{nim}', [BelajarController::class, 'index']);

@@ -6,14 +6,14 @@ use Illuminate\Http\Request;
 
 class BelajarController extends Controller
 {
-    public function index(string $username, int $nim)
-    {
-        $pesan = "Hello this was sent from controller";
+    // public function index(string $username, int $nim)
+    // {
+    //     $pesan = "Hello this was sent from controller";
 
-        $username = ucfirst($username); //mengkapitalkan huruf pertama
+    //     $username = ucfirst($username); //mengkapitalkan huruf pertama
 
-        return view('dashboard', compact('pesan', 'username', 'nim'));
-    }
+    //     return view('dashboard', compact('pesan', 'username', 'nim'));
+    // }
 
     // ================= TAMBAHKAN FUNGSI BARU INI =================
     public function proses(Request $request)
